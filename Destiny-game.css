@@ -1,0 +1,85 @@
+.header, .image-container, .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #F9F5E7;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #F9F5E7;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#one, #two {
+    padding: 20px;
+    color: black;
+    background: #A8D1D1;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.homeButton {
+    display: none;
+    padding: 15px;
+    color: black;
+    background: #A8D1D1;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .header, .image-container, .btn {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-wrap: wrap;
+    }
+    #myImage {
+        width: 400px;
+        height: 200px;
+    }
+
+    #one, #two {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .homeButton {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
